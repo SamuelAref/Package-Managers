@@ -1,0 +1,53 @@
+Yarn Crash Course 
+
+    - What is Yarn?
+
+        - JavaScript Package Manager
+        - Created By Facebook
+        - Fast & Reliable Alternative to NPM
+        - Similar Syntax & Functionality to NPM
+        - Installs Packages from NPM Registry 
+        - a bit faster than npm 4
+
+    - Installing Yarn 
+
+        - go to yarnpkg.com 
+        - run the command npm install --global yarn 
+        - lol we are using npm to install yarn, that's ironic 
+
+    - Commands 
+
+        - yarn -v or yarn --version to check version 
+        - yarn help - gives all the documentation / commands 
+        - yarn init - creates a json file 
+        - yarn config set init-author-name - changes the name 
+        - yarn  config get init-license - to get a value 
+        - yarn outdated - returns the outdated packages and that can be upgraded 
+        - yarn upgrade lodash@(version)
+        - yarn list - lists every dependency and inner dependency 
+        - yarn list depth=0 - lists only the major dependencies
+        - yarn list --pattern gulp - lists only the dependencies of gulp 
+        - yarn remove gulp - removes dependency  
+
+    - to install/uninstall moules
+
+        - yarn add lodash - installs module
+        - yarn remove lodash - removes module 
+
+    - global modules 
+
+        - yarn global add nodemon - adds a global module 
+        - yarn global bin - returns where your global packages are installed 
+
+    - dev dependencies
+
+        - yarn add gulp -D - adds develpment dependency
+        - yarn remove gulp - removes 
+
+    - yarn.lock file 
+        - holds which versions of the dependencies are installed 
+        - yarn check - verifies the versions of .json file and .lock file match 
+        - yarn import - if yarn.lock file was deleted, it generates a new lock file 
+
+
+
